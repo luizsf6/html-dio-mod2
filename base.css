@@ -20,19 +20,68 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #4ab70e;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #141D37;
     min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.header .logo {
+    margin-left: 3rem;
+    align-items: start;
+    justify-content: center;
+}
+
+.header .icon {
+    align-items: start;
+    margin-right: 3rem;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    padding-bottom: 0px;
 }
+
+.content .formContato {
+    display: flex;
+    border: solid 1px black;
+    width: 17.5rem;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.content table {
+    margin-top: 1rem;
+    border: solid 1px black;
+    -webkit-box-shadow: 0px 5px 9px 3px rgba(0,0,0,0.42); 
+    box-shadow: 0px 5px 9px 3px rgba(0,0,0,0.42);
+    text-align: center;
+}
+
+.content thead th {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+}
+
+.content tbody tr:nth-child(even) td{
+    background-color: #f1f1f1;
+}
+
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
+
